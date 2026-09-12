@@ -1,0 +1,28 @@
+RESOLVEAI CUSTOMER RESOLUTION POLICIES
+
+POLICY: DAMAGED PRODUCT REPLACEMENT
+Customers may request a replacement when a delivered product is damaged.
+The order must be verified before a replacement is created.
+A replacement can only be created when replacement inventory is available.
+If the preferred warehouse has no inventory, another warehouse with available inventory may be selected.
+
+POLICY: REFUND FOR DAMAGED PRODUCT
+A customer may receive a refund for a damaged product when the order is eligible for a refund.
+The order must be verified before issuing the refund.
+The refund should use the original payment method when supported.
+
+POLICY: ORDER CANCELLATION
+An order may be cancelled when it has not entered the non-cancellable fulfillment stage.
+Orders that have already reached a non-cancellable stage cannot be cancelled through the normal cancellation process.
+
+POLICY: REPLACEMENT INVENTORY
+A replacement requires at least one available unit of the requested product.
+The agent should check inventory before creating a replacement.
+If one warehouse is unavailable, the agent may use another warehouse with available inventory.
+
+POLICY: CUSTOMER VERIFICATION
+Before performing a replacement, refund, or cancellation, the customer and order must be verified.
+The resolution agent should not execute an action when the required customer or order information cannot be verified.
+
+POLICY: ESCALATION
+The issue should be escalated when the required policy conditions cannot be satisfied or when the required enterprise-system information cannot be verified.
