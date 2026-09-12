@@ -4,5 +4,7 @@ streamlit
 pydantic
 python-dotenv
 requests
+pytest
+httpx
 numpy
 sentence-transformers
