@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import os
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
@@ -307,7 +308,7 @@ if st.button("🚀 Resolve Issue", type="primary"):
             try:
 
                 response = requests.post(
-                    "http://127.0.0.1:8000/api/resolve",
+                    os.getenv("BACKEND_URL", "http://127.0.0.1:8000") + "/api/resolve",
                     json={
                         "query": query,
                         "user_id": user_id
