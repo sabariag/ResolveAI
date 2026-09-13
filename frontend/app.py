@@ -320,7 +320,13 @@ if st.button("🚀 Resolve Issue", type="primary"):
                     data = response.json()
 
                     status = data["result"]["status"]
-                    message = data["result"]["message"]
+                    message = data["result"].get(
+                        "message",
+                         data["result"].get(
+                             "final_response",
+                              "Resolution completed successfully."
+                             )
+                        )
 
                     st.markdown(
                         f"""
